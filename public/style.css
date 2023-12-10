@@ -1,0 +1,64 @@
+body{
+    margin-top: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(./images/marvin-von-hagen-MEgiAJfNDpU-unsplash.jpg);
+    color: white;
+}
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  gap: 40px;
+  background-color: rgba(143, 143, 143, 0.511);
+  margin-top: 120px;
+
+}
+.item{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;   
+  border-radius: 3rem;
+  gap: 30px;
+  border: none;
+}
+
+
+.box{
+    width: 350px;
+    height: 200px;
+    border-radius: 0.3rem;
+    box-shadow: 4px 4px 2px 1px rgba(64, 64, 64, 0.752);
+    position: relative;
+}
+
+
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    text-shadow: rgba(189, 189, 189, 0.826) 0 1px 1px;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 19px;
+    text-shadow: rgb(93, 93, 93) 0 2px 2px ;
+}
+
+.logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  box-shadow: 10px 10px 5px  #30303081;
+  margin-bottom: 20px;
+  border-radius: 2.2rem 2.2rem;
+}
+
+.fcontainer{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 10px 10px 10px black;
+}

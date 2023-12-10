@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Matches</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+
+</head>
+
+<body>
+      <img class="logo" src="  /images/Football.png" alt="Football Highlights">
+      <div class="container">
+        <% for(let i = 0; i < title.length; i++) { %>
+          <div class="item">
+            <h3><%= title[i].competition %></h3>
+           <ul><h2><%= title[i].title %></h2></ul>
+           <input class="box" type="image" name="Mp4" src="<%=title[i].thumbnail%>" onclick="location.href='<%=title[i].matchviewUrl%>'">
+          </div>
+           <% } %>
+      </div>
+      <footer>
+        <div class="fcontainer">
+          <p class="sef">&copy; Serafeim Mparkas </p>
+        </div>
+      </footer>
+</body>
+
+</html>
